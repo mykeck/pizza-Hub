@@ -30,10 +30,10 @@
                                 <img src="images/pizza chef.jpeg" height="300px" width="300px" alt="chef" class="karibu-img">
                             </div>
                             <div class="col-md-6 karibu-txt">
-                                <h1 class="text-center txt txt-big">Karibuni <span class="pizz">Pizza </span><span class="exc">Hub!</span>
+                                <h1 class="text-center txt txt-big">Karibuni <span class="pizza">Pizza </span><span class="exc">Hub!</span>
                                 </h1>
                                 <p class="text-center txt">The best pizza you'll ever taste</p>
-                                <p class="text-center txt">Order your pizza and we wil deliver it to your location.</p>
+                                <p class="text-center txt">Order your pizza and we will deliver it to your location.</p>
                                 <a href="#menus">
                                     <button class="btn bg-info mx-auto d-block menu-btn">Menu</button>
                                 </a>
@@ -41,6 +41,64 @@
                         </div>
                     </div>
                 </div>
+                <h2 style="color: black; text-align: center;">Menu</h2>
+    <div class="row">
+        <div class="col-md-4 Menu">
+            <img src="images/pizza 1.jpeg" width="200px" height="200" alt="pizza 1">
+            <p>small 650ksh</p>
+        </div>
+        <div class="col-md-4 Menu">
+            <img src="images/pizza 2.jpg" width="200px" height="200px" alt="pizza 2">
+            <p>medium 1050ksh</p>
+        </div>
+        <div class="col-md-4 Menu">
+            <img src="images/pizza 3.jpeg" width="200px" height="200px" alt="pizza">
+            <p>large 1400ksh</p>
+        </div>
+    </div>   
+    <div class="orders" id="order">
+        <h2 class="text-center" id="order-pizza" style="color: black;">Place your order</h2>
+        <div class="form-group row">
+            <div class="col-sm-12 order-overlay text-center">
+                <form class="col-sm-6 offset-sm-3 text-center">
+                    <label>Pick your pizza Flavour:</label>
+                    <select class="custom-select custom-select-md mb-3 flavour" >
+                        <option value="vegtikka">Veg Tikka</option>
+                        <option value="chickentikka">Chicken Tikka</option>
+                        <option value="periperi">Peri-Peri Chicken</option>
+                        <option value="bbq">BBQ Steak</option>
+                    </select>
+                    <label>Chose your preferred Size:</label>
+                    <select class="custom-select custom-select-md mb-3" id="size">
+                        <option value="regular">Regular</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+                    <label for="crust">Choose your favorite Crust:</label>
+                    <select class="custom-select custom-select-md mb-3" id="crust">
+                        <option value="thin">Thin Crust @ Ksh. 100</option>
+                        <option value="thick">Thick Crust @ Ksh. 150</option>
+                        <option value="flatbread">FlatBread Crust @ sh. 180</option>
+                        <option value="custom">Custom Crust @ sh. 280</option>
+                    </select>
+                    <label>Select Your favourite Toppings</label>
+                    <select class="custom-select custom-select-md mb-3" id="toppings">
+                        <option value="tomato">Tomato @ sh. 80</option>
+                        <option value="onions">Onions @ sh. 80</option>
+                        <option value="mushroom">Mushroom @ sh. 80</option>
+                        <option value="greenpepper">Green Pepper @ sh. 80</option>
+                        <option value="olives">Olives @ sh. 120</option>
+                        <option value="pineapple">Pineapple @ sh. 120</option>
+                    </select>
+                    <label for="number">Number of Pizza's</label>
+                    <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1">
+                    <button class="btn bg-info mx-auto d-block menu-btn">checkout</button>
+    
+                </form>
+                    
+            </div>
+        </div>
+    </div>       
     </div>
     
 </body>

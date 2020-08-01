@@ -2,6 +2,7 @@
     background-image: url("../images/pizza\ hub.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     height: 90vh;
     text-align: center;
     color: lightcyan;
@@ -13,4 +14,21 @@
 }
 .karibu{
     color: black;
+}
+.Menu{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.orders{
+    color: white;
+}
+form{
+    background-color: black;
+    width: 100vw; 
+    height: 550px;
 }
