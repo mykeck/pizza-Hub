@@ -1,0 +1,13 @@
+.top{
+    background-image: url("../images/pizza\ hub.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    text-align: center;
+    color: lightcyan;
+}
+.btn{margin-top: 50px;
+    margin-bottom: 100px;
+    border-radius: 90px;
+    width: 90px;
+}
