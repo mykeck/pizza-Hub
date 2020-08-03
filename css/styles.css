@@ -36,11 +36,6 @@ html{
 .orders{
     color:black;
 }
-/* form{
-    background-color: black;
-    width: 100vw; 
-    height: 550px;
-} */
 img:hover {
     animation: shake 1.5s;
     animation-iteration-count: infinite;
