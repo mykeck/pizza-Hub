@@ -53,13 +53,13 @@
             <p>large 1200ksh</p>
         </div>
     </div>   
-    <div class="orders" id="order">
+    <div class="orders" id="orders">
         <h1>Place your order!</h1>
         <div class="row">
             <div class="col-md-4" id="down">
                 <div class="type">
-                    <label for="type" id="type"></label>
-                    <select>
+                    <label for="type" id="type">Pick your pizza Flavour:</label>
+                    <br><select id="type">
                         <option>chicken Tikka</option>
                         <option>peri-peri chicken</option>
                         <option>BBQ steak</option>
@@ -67,9 +67,8 @@
                 </div>
 
                 <div class="size">
-                    <label for="size" ></label>
-                    <select id="size">
-                        
+                    <label for="size" >Chose your preferred Size:</label>
+                    <br><select id="size"> 
                         <option value="small">small@ ksh850</option>
                         <option value="medium">medium@ Ksh1000</option>
                         <option value="large">large@ Ksh1200</option>
@@ -78,7 +77,7 @@
                 </div>
                 <div class="crust">
 
-                    <label for="crust"></label>
+                    <label for="crust">Choose your favorite Crust:</label>
                     <br> <select id="crust">
                         <option value="cripsy">cripsy @85</option>
                         <option value="stuffed">Stuffed @90</option>
@@ -89,7 +88,7 @@
                 </div>
                 <div class="topping">
 
-                    <label for="topping" ></label>
+                    <label for="topping" >Select Your favourite Toppings</label>
                     <br><select id="topping">
                         <option value="onion">Onions @50</option>
                         <option value="sausage">Sausage @100</option>
@@ -97,14 +96,15 @@
                         <option>none</option>
                     </select>
                     <div class="quantity">
-                        <input id="quantity" type="number" min="1" max="12">
+                        <label for="quantity">Number of Pizza's</label>
+                        <br><input id="quantity" type="number" min="1" max="12">
 
                     </div>
                 </div>
-                <br> <button id="button"  value="check-out" onclick="myPrice()" type="submit" class="trial">checkout</button>
+                <button class="btn bg-info" onclick="myPrice()" type="submit">checkout</button>
             </div>
             <div class="col-md-4">
-              <h1>For Delivery</h1>
+              <h3>Make Delivery</h3>
                     <form action="">
                         <div class="name">
                             <label for="name"> Enter your name</label><br>
@@ -118,7 +118,7 @@
                            <labe>Enter your number</labe><br>
                             <input type="number" id="number" placeholder="number" minlength="12" maxlength="12">
                        </div><br>
-                       <button onclick="myFunction()" id="click">Enter</button>
+                       <button class="btn bg-info" onclick="myFunction()">Enter</button>
                     </form>
             </div>
             <div id="summary" class="col-4">
@@ -128,7 +128,7 @@
                     <p id="2"></p>
                     <p id="3"></p>
                     <p id="4"></p>
-                    <button class="trial">ok</button>
+                    <button class="btn bg-info">Okay</button>
                 </div>
     
             </div>
@@ -137,6 +137,7 @@
 
     </div>
     </div>
+    
    </div> 
 </body>
 </html>
