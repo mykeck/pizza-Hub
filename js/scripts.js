@@ -32,6 +32,7 @@
             $("#down").toggle();
         })
     })
+    
 
     // let price, totalPrice;
     // switch (flavour) {
