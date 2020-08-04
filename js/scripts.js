@@ -25,7 +25,19 @@
      document.getElementById("2").innerHTML= " with topping of  "+ topping ;
      document.getElementById("3").innerHTML= " And crust of  "+ crust;
      document.getElementById("4").innerHTML= " And you selected " + quantity +" of them ";
+     document.getElementById("5").innerHTML= " Total price " + price +" / ";
+
      };
+     switch (pizzasize) {
+         case "large":
+             var price=1200;
+              break;
+         case "medium"
+         var price
+     
+         default:
+             break;
+     }
 
      $(document).ready(function(){
         $(".btn").click(function(){
