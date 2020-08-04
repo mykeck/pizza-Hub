@@ -33,5 +33,9 @@ To get a local copy of the site:
 | Pizza topping    | `eg Beef peperoni`  |
 | Number of pizzas   | `eg 6`   |
 
+
+## Bugs.
+1. The price for ordered pizza is not displaying.
+
 ## License:
 >MIT LICENSE &copy; 2020 mike
