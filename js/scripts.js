@@ -20,12 +20,12 @@
         var topping=document.getElementById("topping").value
         var size=document.getElementById("size").value
         var quantity=document.getElementById("quantity").value
-        
+        console.log(size)
      document.getElementById("1").innerHTML= " we received your order of pizza size  " + size +" flavor of " + type;
      document.getElementById("2").innerHTML= " with topping of  "+ topping ;
      document.getElementById("3").innerHTML= " And crust of  "+ crust;
      document.getElementById("4").innerHTML= " And you selected " + quantity +" of them ";
-     document.getElementById("5").innerHTML= " Total price " + price +" / ";
+     
 
      switch (size){
         case "large":
@@ -34,7 +34,7 @@
         case "medium":
           price=1000;
         break;
-        case "regular":
+        case "small":
           price=600;
         break;
         default:
@@ -55,7 +55,7 @@
         case "sausage":
          var topping_cost=100;
         break;
-        case "onions":
+        case "onion":
           topping_cost=50
         break;
         case "bacon":
@@ -63,7 +63,10 @@
         break;
         default:
       }
-      var total=(price+crust_price+topping_cost)*pizzaquantity;
+      
+      var total=(price+crust_price+topping_cost)*quantity;
+      console.log(topping_cost);
+      document.getElementById("5").innerHTML= " Total price " + total;
      
      };
     
