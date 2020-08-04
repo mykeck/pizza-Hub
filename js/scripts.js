@@ -21,12 +21,12 @@
         var size=document.getElementById("size").value
         var quantity=document.getElementById("quantity").value
         var final=(crust + type + topping +size ) *quantity;
-     
-     document.getElementById("1").innerHTML= " we received your order of pizza size  " + size +"flavor of" + type;
+     console.log(type);
+     document.getElementById("1").innerHTML= " we received your order of pizza size  " + size +" flavor of " + type;
      document.getElementById("2").innerHTML= " with topping of  "+ topping ;
      document.getElementById("3").innerHTML= " And crust of  "+ crust;
      document.getElementById("4").innerHTML= " And you selected " + quantity +" of them ";
-     document.getElementById("5").innerHTML= " Total price " + price +" / ";
+     document.getElementById("5").innerHTML= " Total price " + final +" / ";
 
      };
     //  switch (pizzasize){
